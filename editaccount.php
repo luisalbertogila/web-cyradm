@@ -129,22 +129,34 @@ if ($authorized) {
 					<?php
 					if ($c == 0) {
 						?>
-						<td valign="middle" rowspan="<?php echo $cnt;?>">
+						<td valign="middle"  align="center" rowspan="<?php echo $cnt;?>">
 							<?php
 							if ($DOMAIN_AS_PREFIX){
-								$quota = $cyr_conn->getquota("user/" . $_GET['username']);
+								$quota = $cyr_conn->getquota("user/" . $username);
 							} else {
-								$quota = $cyr_conn->getquota("user." . $_GET['username']);
+								$quota = $cyr_conn->getquota("user." . $username);
 							}
-
-							if ($quota['used'] != 'NOT-SET'){
-								$q_used		= $quota['used'];
-								$q_total	= $quota['qmax'];
-								$q_percent	= 100 * $q_used / $q_total;
-								
-								printf ("%d MB %s %d MB (%.2f%%)",
-									$quota['used']/1024, _("out of"),
-									$quota['qmax']/1024, $q_percent);
+							if ($quota['used'] != "NOT-SET"){
+								$q_used  = $quota['used'];
+								$q_total = $quota['qmax'];
+								if (! $q_total == 0){
+									$q_percent = 100*$q_used/$q_total;
+									$b_img = 'green.gif';
+									if ($q_percent >= $_SESSION['warnlevel']){
+										$b_img = 'red.gif';
+									}
+									echo '<table class="quota_table">';
+									echo '<tr>';
+									echo '<td class="quota_td" style="background: url(\'images/'.$b_img.'\') repeat-y; background-position: '.((-100)+min(100,round($q_percent))).';">';
+									echo round($q_percent,2).'%</td>';
+									echo '</tr>';
+									echo '</table>';
+									printf ("%d MB %s %d MB",
+										$quota['used']/1024, _("out of"),
+										$quota['qmax']/1024);
+								} else {
+									print _("Unable to retrieve quota");
+								}
 							} else {
 								print _("Quota not set");
 							}
