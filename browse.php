@@ -129,7 +129,10 @@ if ($ref!=$_SERVER['SCRIPT_FILENAME']){
 						if ($_SESSION['domain_orderby'] == 'maxaccounts') print "<img src=\"images/arrow_sort_".$_SESSION['domain_orderby_desc'].".png\" border=\"0\">";
 ?>
                                         </th>
+                                        <th>
+                                                <?php print _("Used Accounts"); ?>
 
+                                        </th>
                                         <th>
                                                 <!-- <?php print _("Domain quota");?> -->
 						<?php print "<a class=\"th_a\" href=\"index.php?action=browse&orderby=domainquota\">"._("Domain quota")."</a>";
@@ -219,7 +222,25 @@ if ($ref!=$_SERVER['SCRIPT_FILENAME']){
 							<?php
 							echo $row['maxaccounts'];
 							?>
-						</td>
+						</td>		
+                                                <td align="right">
+                                                        <!--  total number accounts -->
+							<?php 
+							$queryMAX =  "SELECT count(*) as total_account FROM accountuser where domain_name = '".$row['domain_name'].$
+							$resultMAX = $handle->query($queryMAX);
+
+							if (DB::isError($resultMAX)) {
+								die (_("Database error"));
+
+							}
+							else
+							{
+								$rowMAX = $resultMAX->fetchRow(DB_FETCHMODE_ASSOC,0);
+								echo $rowMAX['total_account'];
+							}
+
+							?>
+                                                </td>	
 						
 						<td align="right">
 							<!--  Max Domain Quota -->
