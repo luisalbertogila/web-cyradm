@@ -251,6 +251,11 @@ msgstr ""
 msgid "default quota per user"
 msgstr ""
 
+#: browse.php:50 search.php:61
+msgid "used accounts"
+msgstr ""
+
+
 #: browse.php:90 search.php:82
 msgid "Edit Domain"
 msgstr ""
