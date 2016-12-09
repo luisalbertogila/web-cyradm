@@ -247,6 +247,11 @@ msgstr "prefix"
 msgid "max Accounts"
 msgstr "max Accounts"
 
+#: browse.php:38 search.php:60
+msgid "used accounts"
+msgstr "Used Accounts"
+
+
 #: browse.php:42 search.php:61
 msgid "default quota per user"
 msgstr "default quota per user"
