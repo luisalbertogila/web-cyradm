@@ -122,7 +122,7 @@ if ($ref!=$_SERVER['SCRIPT_FILENAME']){
 					}
 					$cnt2 = $result2->numRows($result2);
 
-					$query3 = "SELECT * FROM log WHERE user='".$username."' ORDER BY time DESC";
+					$query3 = "SELECT time FROM log WHERE user='".$username."' ORDER BY time DESC LIMIT 0,1";
 					$result3 = $handle->query($query3); 
 					if (! DB::isError($result3)){
 						$row3 = $result3->fetchRow(DB_FETCHMODE_ASSOC, 0);
