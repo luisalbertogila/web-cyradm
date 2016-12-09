@@ -8,7 +8,7 @@ msgstr ""
 "POT-Creation-Date: 2003-08-10 16:56+0200\n"
 "PO-Revision-Date: 2003-05-19 20:17+2\n"
 "Last-Translator: Rafael Santamaria <rafasg@terra.es>\n"
-"Language-Team: Español <web-cyradm@web-cyradm.org>\n"
+"Language-Team: EspaÃ±ol <web-cyradm@web-cyradm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,12 +36,12 @@ msgstr "Total cuentas"
 
 #: CVS/Base/browseaccounts.php:49 adminuser.php:36 browseaccounts.php:49
 msgid "Displaying from position:"
-msgstr "Visualizando desde la posición"
+msgstr "Visualizando desde la posiciÃ³n"
 
 #: CVS/Base/browseaccounts.php:55 CVS/Base/browseaccounts.php:242
 #: browseaccounts.php:55 browseaccounts.php:242 search.php:123 search.php:239
 msgid "Add new account"
-msgstr "Añadir nueva cuenta"
+msgstr "AÃ±adir nueva cuenta"
 
 #: CVS/Base/browseaccounts.php:78 adminuser.php:65 aliases.php:56
 #: browseaccounts.php:78 editalias.php:69 search.php:131 search.php:135
@@ -57,7 +57,7 @@ msgstr "10 Siguientes"
 #: browse.php:20 browseaccounts.php:91 editaccount.php:50 editalias.php:76
 #: search.php:52 search.php:149 search.php:253
 msgid "action"
-msgstr "Acción"
+msgstr "AcciÃ³n"
 
 #: CVS/Base/browseaccounts.php:96 aliases.php:65 browseaccounts.php:96
 #: editaccount.php:54 newaccount.php:136 newalias.php:82 search.php:150
@@ -72,7 +72,7 @@ msgstr "Nombre Usuario"
 
 #: CVS/Base/browseaccounts.php:97 browseaccounts.php:97
 msgid "Last login"
-msgstr "Último acceso"
+msgstr "Ãšltimo acceso"
 
 #: CVS/Base/browseaccounts.php:97 browseaccounts.php:97 editaccount.php:68
 #: search.php:152
@@ -140,7 +140,7 @@ msgstr "Total administradores"
 
 #: adminuser.php:43
 msgid "Add administator"
-msgstr "Añadir administrador"
+msgstr "AÃ±adir administrador"
 
 #: adminuser.php:82
 msgid "Adminname"
@@ -186,7 +186,7 @@ msgstr "No existen cuentas"
 
 #: adminuser.php:181
 msgid "Add administrator"
-msgstr "Añadir administrador"
+msgstr "AÃ±adir administrador"
 
 #: aliases.php:11
 msgid "Browse aliases for domain"
@@ -198,7 +198,7 @@ msgstr "Total alias"
 
 #: aliases.php:55
 msgid "Add new alias"
-msgstr "Añadir nuevo alias"
+msgstr "AÃ±adir nuevo alias"
 
 #: aliases.php:66 editalias.php:77 editemail.php:113 newemail.php:98
 #: search.php:255
@@ -219,11 +219,11 @@ msgstr "Solo usuarios autorizados."
 
 #: auth.inc.php:71
 msgid "Make sure you entered the right password."
-msgstr "Asegurate de introducir la contraseña correcta"
+msgstr "Asegurate de introducir la contraseÃ±a correcta"
 
 #: auth.inc.php:72
 msgid "Push the back button in your browser to try again."
-msgstr "Pulsa el botón de atras de tu navegador e intentalo de nuevo."
+msgstr "Pulsa el botÃ³n de atras de tu navegador e intentalo de nuevo."
 
 #: auth.inc.php:73
 msgid " Your attempt to login has been stored."
@@ -243,7 +243,11 @@ msgstr "Prefijo"
 
 #: browse.php:38 search.php:60
 msgid "max Accounts"
-msgstr "Nº Maximo de cuentas"
+msgstr "NÂº Maximo de cuentas"
+
+#: browse.php:38 search.php:60
+msgid "used accounts
+msgstr "Cuentas en uso"
 
 #: browse.php:42 search.php:61
 msgid "default quota per user"
@@ -283,7 +287,7 @@ msgstr "El usuario actualmente definido"
 
 #: catchall.php:46
 msgid "will not receiving any undefined emailadresses anymore"
-msgstr "no se recibirá más cualquiera direccion de email sin definir"
+msgstr "no se recibirÃ¡ mÃ¡s cualquiera direccion de email sin definir"
 
 #: catchall.php:74
 msgid "The user"
@@ -295,7 +299,7 @@ msgstr "esta preparado para recibir todos los email sin definir."
 
 #: catchall.php:76
 msgid "Do you want to remove the function \"catch all\" for the account"
-msgstr "Quieres tu borrar la función \"catch all\" para la cuenta"
+msgstr "Quieres tu borrar la funciÃ³n \"catch all\" para la cuenta"
 
 #: catchall.php:127 newadminuser.php:197
 msgid "successfully added to Database"
@@ -353,7 +357,7 @@ msgstr "Con todas las direcciones definidas"
 #: deleteaccount.php:69 deleteadminuser.php:68 deletedomain.php:84
 #: deleteemail.php:55
 msgid "Action cancelled, nothing deleted"
-msgstr "Acción cancelada, nada borrado"
+msgstr "AcciÃ³n cancelada, nada borrado"
 
 #: deleteaccount.php:100
 msgid "User deleted"
@@ -362,7 +366,7 @@ msgstr "Usuario borrado"
 #: deleteaccount.php:111 deletedomain.php:175
 msgid ""
 "Security violation detected, action cancelled. Your attempt has been logged."
-msgstr "Detectada violación de seguridad, acción cancelada. Se ha registrado su tentativa "
+msgstr "Detectada violaciÃ³n de seguridad, acciÃ³n cancelada. Se ha registrado su tentativa "
 
 #: deleteadminuser.php:17
 msgid "Delete an Admin account from the System"
@@ -382,7 +386,7 @@ msgstr "Usuario Admin borrado"
 
 #: deleteadminuser.php:116 editadminuser.php:299 newadminuser.php:226
 msgid "Security violation detected, nothing deleted, attempt has been logged"
-msgstr "Detectada violación de seguidad, nada borrado, tentativa registrada"
+msgstr "Detectada violaciÃ³n de seguidad, nada borrado, tentativa registrada"
 
 #: deletedomain.php:28
 msgid "Delete a Domain from the System"
@@ -402,7 +406,7 @@ msgstr "Este proceso puede tardar un poco dependiendo de las cuentas borradas"
 
 #: deletedomain.php:47
 msgid "Your action will delete"
-msgstr "Su acción borrará"
+msgstr "Su acciÃ³n borrarÃ¡"
 
 #: deletedomain.php:154 newadminuser.php:101
 msgid "Domain"
@@ -482,11 +486,11 @@ msgstr "Confirme Clave"
 
 #: editadminuser.php:155
 msgid "No Domain assigned yet"
-msgstr "Ningún dominio asignado todavía"
+msgstr "NingÃºn dominio asignado todavÃ­a"
 
 #: editadminuser.php:165
 msgid "Add new domain to this admin"
-msgstr "Añadir nuevo dominio a este administrador"
+msgstr "AÃ±adir nuevo dominio a este administrador"
 
 #: editadminuser.php:223
 msgid "No such domain, create domain first"
@@ -498,7 +502,7 @@ msgstr "Administrador responsable del dominio preparado"
 
 #: editalias.php:27
 msgid "There was an error adding $dest to $alias: "
-msgstr "Hay un error añadiendo $dest to $alias: "
+msgstr "Hay un error aÃ±adiendo $dest to $alias: "
 
 #: editalias.php:64
 msgid "Editing alias"
@@ -526,7 +530,7 @@ msgstr "Nuevo destino"
 
 #: editdomain.php:46
 msgid "Successfully changed domain"
-msgstr "Modificación de dominio realizada"
+msgstr "ModificaciÃ³n de dominio realizada"
 
 #: editdomain.php:92 newdomain.php:39
 msgid "Domainname"
@@ -546,7 +550,7 @@ msgstr "Permitir direcciones de email libres"
 
 #: editdomain.php:159 newdomain.php:102
 msgid "Maximum Accounts"
-msgstr "Nº Maximo de cuentas"
+msgstr "NÂº Maximo de cuentas"
 
 #: editdomain.php:173 newdomain.php:117
 msgid "Default Quota in Kilobytes"
@@ -558,12 +562,12 @@ msgstr "No tienes permitido cambiar dominios!"
 
 #: editemail.php:46
 msgid "Successfully changed"
-msgstr "Modificación realizada"
+msgstr "ModificaciÃ³n realizada"
 
 #: editemail.php:68
 msgid ""
 "You can't edit this email address with 'Allow Free Mail Addressess' set to off!"
-msgstr "No puedes editar esta cuenta con 'Permitir dirección de email libres' desactivado!"
+msgstr "No puedes editar esta cuenta con 'Permitir direcciÃ³n de email libres' desactivado!"
 
 #: editemail.php:95 newemail.php:77
 msgid "Emailadress"
@@ -595,7 +599,7 @@ msgstr "Fallo al cambiar el reenvio"
 
 #: forwardalias.php:73
 msgid "Wrong password"
-msgstr "Clave errónea"
+msgstr "Clave errÃ³nea"
 
 #: forwardalias.php:89 forwardalias.php:97 forwardalias.php:103
 #: forwardalias.php:107 forwardaccount.php:57
@@ -633,7 +637,7 @@ msgstr "(Separa los valores con ,)"
 
 #: forwardalias.php:210 forwardaccount.php:125
 msgid "Keep a copy in the user's mailbox"
-msgstr "Mantener una copia en el buzón del usuario"
+msgstr "Mantener una copia en el buzÃ³n del usuario"
 
 #: forwardalias.php:215 forwardaccount.php:139
 msgid "Remove forwarding"
@@ -649,20 +653,20 @@ msgstr "web-cyradm no ha sido correctamente configurado"
 
 #: index.php:141
 msgid "Configuration steps:"
-msgstr "Pasos para la configuración:"
+msgstr "Pasos para la configuraciÃ³n:"
 
 #: index.php:143
 msgid "copy the config file that comes with the distribution: "
-msgstr "copia el fichero de configuración que viene con la distribución: "
+msgstr "copia el fichero de configuraciÃ³n que viene con la distribuciÃ³n: "
 
 #: index.php:146
 msgid "Edit the file config/conf.php to match your systems configuration"
-msgstr "Cambia el fichero config/conf.php para confrontar la configuración de tu sistema"
+msgstr "Cambia el fichero config/conf.php para confrontar la configuraciÃ³n de tu sistema"
 
 #: index.php:148
 msgid ""
 "Further information about how to configure Web-cyradm can be found at the following website:"
-msgstr "Futura información para configurar Web-cyradm será encontrada en la siguiente web:"
+msgstr "Futura informaciÃ³n para configurar Web-cyradm serÃ¡ encontrada en la siguiente web:"
 
 #: login.php:50
 msgid "Welcome to Web-cyradm"
@@ -682,11 +686,11 @@ msgstr "Gracias por usar Web-cyradm"
 
 #: logout.php:57
 msgid "You are logged out"
-msgstr "Sesión finalizada"
+msgstr "SesiÃ³n finalizada"
 
 #: menu.inc.php:19
 msgid "Superusers Menu"
-msgstr "Menú de Super Usuario"
+msgstr "MenÃº de Super Usuario"
 
 #: menu.inc.php:23
 msgid "Domainmasters menu"
@@ -694,7 +698,7 @@ msgstr "Menu de dominios"
 
 #: menu.inc.php:31
 msgid "add new domain"
-msgstr "Añadir un dominio"
+msgstr "AÃ±adir un dominio"
 
 #: menu.inc.php:38
 msgid "browse domains"
@@ -734,7 +738,7 @@ msgstr "Ninguan dominio elegido"
 
 #: newaccount.php:13
 msgid "Add new Account to domain"
-msgstr "Añadir cuenta en el dominio"
+msgstr "AÃ±adir cuenta en el dominio"
 
 #: newaccount.php:43 newalias.php:43
 msgid "transport is not cyrus, unable to create account"
@@ -746,7 +750,7 @@ msgstr "Lo siento, no mas cuentas permitidas para el dominio"
 
 #: newaccount.php:60
 msgid "Maximum allowed accounts is"
-msgstr "Nº Maximo de cuentas"
+msgstr "NÂº Maximo de cuentas"
 
 #: newaccount.php:137
 msgid "Quota"
@@ -758,15 +762,15 @@ msgstr "Lo siento, el usuario ya existe"
 
 #: newaccount.php:221
 msgid "Account successfully added to the Database"
-msgstr "Cuenta añadida en la base de datos"
+msgstr "Cuenta aÃ±adida en la base de datos"
 
 #: newaccount.php:234
 msgid "Account succesfully added to the IMAP Subsystem"
-msgstr "Cuenta añadida al subsistema IMAP"
+msgstr "Cuenta aÃ±adida al subsistema IMAP"
 
 #: newadminuser.php:13
 msgid "Add new administrator"
-msgstr "Añadir nuevos administrador"
+msgstr "AÃ±adir nuevos administrador"
 
 #: newadminuser.php:64
 msgid "Select \"Superuser\" for all domains"
@@ -786,7 +790,7 @@ msgstr "El nombre de usuario ya existe"
 
 #: newalias.php:15
 msgid "Add new alias to domain"
-msgstr "Añadir nuevo alias al dominio"
+msgstr "AÃ±adir nuevo alias al dominio"
 
 #: newalias.php:55
 msgid "Sorry, no more alias allowed for domain"
@@ -794,11 +798,11 @@ msgstr "Lo siento, no se permiten mas alias para el dominio"
 
 #: newalias.php:60
 msgid "Maximum allowed aliases is"
-msgstr "Nº Maximo de alias es"
+msgstr "NÂº Maximo de alias es"
 
 #: newdomain.php:15
 msgid "Add new domain"
-msgstr "Añadir nuevo dominio"
+msgstr "AÃ±adir nuevo dominio"
 
 #: newdomain.php:140
 msgid "Standard Mailboxes"
@@ -807,7 +811,7 @@ msgstr "Buzones standard"
 #: newdomain.php:146
 msgid ""
 "emailadress where the default aliases should be mapped (empty means no mapping)"
-msgstr "email donde el alias por defecto debería ser situado (vacio no situado)"
+msgstr "email donde el alias por defecto deberÃ­a ser situado (vacio no situado)"
 
 #: newdomain.php:163
 msgid "Mail transport"
@@ -823,11 +827,11 @@ msgstr "Parametros"
 
 #: newdomain.php:245 newemail.php:34
 msgid "Successfully added"
-msgstr "Añadido correctamente"
+msgstr "AÃ±adido correctamente"
 
 #: newdomain.php:273
 msgid "You are not allowed to add new domains"
-msgstr "No tienes permitido añadir nuevos dominios"
+msgstr "No tienes permitido aÃ±adir nuevos dominios"
 
 #: newemail.php:56
 msgid "New emailadress for user"
@@ -843,7 +847,7 @@ msgstr "Total usuarios"
 
 #: search.php:118
 msgid "Displaying from position"
-msgstr "Visualizar desde la posición"
+msgstr "Visualizar desde la posiciÃ³n"
 
 #: search.php:245
 msgid "Total aliases matching"
@@ -871,7 +875,7 @@ msgstr "cambiar a"
 
 #: timeout.php:33
 msgid "Your session timed out"
-msgstr "Su sesión ha expirado"
+msgstr "Su sesiÃ³n ha expirado"
 
 #: vacation.php:71
 msgid "Vacation notice set"
@@ -921,11 +925,11 @@ msgstr "Borrar texto de vacaciones"
 #: validate.inc.php:74 validate.inc.php:87 validate.inc.php:134
 #: validate.inc.php:249
 msgid "Security violation detected, attempt logged"
-msgstr "Detectada violación de seguridad, intento almacenado"
+msgstr "Detectada violaciÃ³n de seguridad, intento almacenado"
 
 #: validate.inc.php:130
 msgid "Quota exeedes the maximum allowed qutoa for this domain."
-msgstr "Cuota excede al máximo permitido para este dominio."
+msgstr "Cuota excede al mÃ¡ximo permitido para este dominio."
 
 #: forwardaccount.php:77
 msgid "Forward for account"
@@ -963,4 +967,4 @@ msgstr "Email borrado"
 #~ msgstr "modificado en la base de datos...."
 
 #~ msgid "Add new admin user for domain"
-#~ msgstr "Añadir nueva cuenta de administrador para el dominio"
+#~ msgstr "AÃ±adir nueva cuenta de administrador para el dominio"
