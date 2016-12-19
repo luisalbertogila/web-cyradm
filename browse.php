@@ -226,7 +226,7 @@ if ($ref!=$_SERVER['SCRIPT_FILENAME']){
                                                 <td align="right">
                                                         <!--  total number accounts -->
 							<?php 
-							$queryMAX =  "SELECT count(*) as total_account FROM accountuser where domain_name = '".$row['domain_name'].$
+							$queryMAX =  "SELECT count(*) as total_account FROM accountuser where domain_name = '".$row['domain_name']."'";
 							$resultMAX = $handle->query($queryMAX);
 
 							if (DB::isError($resultMAX)) {
